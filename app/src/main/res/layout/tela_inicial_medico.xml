@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/bt_vacina"
+        android:background="#ff0000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Vacina" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/bt_marcacao"
+        android:background="#00b300"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar Marcação" />
+
+    <EditText
+        android:id="@+id/txt_pesquisarCPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="CPF"/>
+    <Button
+        android:id="@+id/bt_Pesqui"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

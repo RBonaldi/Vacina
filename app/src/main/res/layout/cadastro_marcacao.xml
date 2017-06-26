@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcação de Vacina"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="50px"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF Paciente"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/txt_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/txt_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacina"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000"/>
+
+    <Spinner
+        android:id="@+id/sp_vacina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/bt_cadastro"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro" />
+</LinearLayout>

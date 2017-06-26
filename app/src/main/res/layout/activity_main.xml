@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" android:src="@drawable/log"/>
+
+    <TextView
+        android:id="@+id/lb_Usuario"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/txt_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/lb_senha"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/txt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/bt_login"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/bt_cadastro"
+        android:background="#0000ff"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro" />
+
+
+</LinearLayout>
