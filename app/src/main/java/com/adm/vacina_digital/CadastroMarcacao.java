@@ -57,9 +57,9 @@ public class CadastroMarcacao extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
 
         Spinner spinner = (Spinner)findViewById(R.id.sp_vacina);
-        String valspinner = spinner.getSelectedItem().toString();
+        //String valspinner = spinner.getSelectedItem().toString();
 
-        banco.insert_CartaoVacina(txtCpf.getText().toString(), valspinner, txtData.getText().toString());
+        banco.insert_CartaoVacina(txtCpf.getText().toString(), "Teste", txtData.getText().toString());
         Intent intent = new Intent(CadastroMarcacao.this, TelaInicialMedico.class);
         startActivity(intent);
         finish();

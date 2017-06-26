@@ -64,7 +64,7 @@ public class Banco extends SQLiteOpenHelper {
     }
 
     public Cursor lista_cartao_vacina(String CPF){
-        Cursor cursor = this.getReadableDatabase().rawQuery("SELECT a.id, b.nome, a.data FROM CartaoVacina a inner join Vacina b on a.idVacina = b.id where a.cpf= '"+CPF+"'", null);
+        Cursor cursor = this.getReadableDatabase().rawQuery("SELECT id, idVacina, data FROM CartaoVacina where cpf= '"+CPF+"'", null);
         return cursor;
     }
 
