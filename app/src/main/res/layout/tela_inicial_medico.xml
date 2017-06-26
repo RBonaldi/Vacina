@@ -32,7 +32,7 @@
         android:inputType="text"
         android:hint="CPF"/>
     <Button
-        android:id="@+id/bt_Pesqui"
+        android:id="@+id/bt_Pesquisar"
         android:background="#0000ff"
         android:textColor="#fff"
         android:textSize="20dp"
